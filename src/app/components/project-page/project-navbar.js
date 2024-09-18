@@ -19,7 +19,8 @@ export default function ProjectNavbar(){
             <XMarkIcon className="size-6"/>
           </div>
         </div>
-        <div className="w-28 flex items-center justify-center">
+
+        <div className="desktop-logo w-28 flex items-center justify-center hidden md:flex">
           <Image
             src="/fws.png"
             width={108}
@@ -27,6 +28,15 @@ export default function ProjectNavbar(){
             alt="FWS."
           />
         </div>
+        <div className="mobile-logo w-28 flex items-center justify-center md:hidden">
+          <Image
+            src="/fws.png"
+            width={90}
+            height={32}
+            alt="FWS."
+          />
+        </div>
+        
         <div className="left-section flex-1 flex">
 
         </div>
