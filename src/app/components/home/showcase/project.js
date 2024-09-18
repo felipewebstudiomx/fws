@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Project({title, year, description, image, variant, background, link}){
     return(
-        <div className="project-card w-full max-w-8xl flex flex-col gap-4 md:flex-row md:gap-5 md:h-[440px]">
+        <div className="project-card w-full max-w-7xl flex flex-col gap-4 md:flex-row md:gap-5 md:h-[440px]">
             <Link href={link} className={`project-summary w-full rounded-xl ${background} p-5 flex flex-col gap-10 md:w-1/3 md:h-full md:gap-0 md:justify-between ${variant === '2' && 'md:order-2'}`}>
                 <div className="year text-2xl font-bold">{year}</div>
                 <div className="project-description flex flex-col gap-1.5">
