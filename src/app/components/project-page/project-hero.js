@@ -10,7 +10,7 @@ export default function ProjectHero({title, cover, year, tags, brief, accentColo
                             <div className={`year text-2xl font-bold ${accentColor.text}`}>{year}</div>
                             <div className={`areas flex flex-col gap-2 pl-4 border-l-2 ${accentColor.border} text-lg`}>
                                 {tags.map((tag) => (
-                                    <div>{tag}</div>
+                                    <div key={tag}>{tag}</div>
                                 ))}                                
                             </div>
                         </div>

@@ -7,7 +7,7 @@ export default function Navbar(){
         <div className="navbar-content flex items-center w-full">
           <div className="left-section flex-1 flex items-center">
             <div className="desktop-mail hidden md:inline">
-              INFO@FELIPEWEBSTUDIO.COM
+              FELIPEWEBSTUDIO@GMAIL.COM
             </div>
             <div className="mobile-mail inline md:hidden">
               <EnvelopeIcon className="size-6"/>

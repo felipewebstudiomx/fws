@@ -75,6 +75,7 @@ export default function Showcase(){
                 {
                     projectList.map((project)=>(
                         <Project
+                            key={project.link}
                             title={project.title}
                             year={project.year}
                             description={project.description}
