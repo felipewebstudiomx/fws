@@ -25,3 +25,36 @@ body {
     text-wrap: balance;
   }
 }
+
+.radial-bg{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(41, 151, 255, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
+.bg-pronto-detalle{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(255, 141, 41, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
+.bg-bienvivir{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(80, 215, 248, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
+.bg-ih{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(80, 114, 248, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
+.bg-blue-surf{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(80, 114, 248, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
+.bg-great{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(203, 80, 248, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
+.bg-pronto-cleaning{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(80, 217, 248, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
+.bg-sharebox{
+  background: radial-gradient(100% 100% at 50% 0%, rgba(80, 201, 248, 0.26) 13.09%, rgba(41, 151, 255, 0) 89.56%);
+}
+
