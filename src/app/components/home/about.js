@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function AboutSection(){
     return(
-        <div className="w-full min-h-screen p-8 flex items-center justify-center sm:p-10 sm:py-0 md:p-14">
+        <div id="about" className="w-full min-h-screen p-8 flex items-center justify-center sm:p-10 sm:py-0 md:p-14">
             <div className="about-content w-full max-w-6xl flex flex-col items-center gap-10 md:flex-row md:gap-28">
                 <div className="flex-1 description flex flex-col gap-5 text-lg md:text-xl md:gap-10">
                     <div className="greetings flex gap-2 items-center">

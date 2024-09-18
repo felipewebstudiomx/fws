@@ -68,7 +68,7 @@ const projectList = [
 
 export default function Showcase(){
     return(
-        <div className="w-full px-8 py-10 flex flex-col gap-10 md:px-14">
+        <div id="projects" className="w-full px-8 py-10 flex flex-col gap-10 md:px-14">
             <div className="w-full text-center text-3xl font-bold">Showcase</div>
             
             <div className="w-full flex flex-col gap-10 justify-center items-center md:gap-5">
