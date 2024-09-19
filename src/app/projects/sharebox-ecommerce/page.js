@@ -3,7 +3,7 @@ import ProjectHero from '../../components/project-page/project-hero'
 
 const projectInfo = {
     title: 'Sharebox Ecommerce',
-    cover: '/sharebox-cover.png',
+    cover: '/projects/sharebox/sharebox-cover.png',
     year: '2022',
     tags: ['UX Design', 'UI Design', 'Web Development'],
     brief: "Sharebox is a company dedicated to giving experiences and happiness through gift boxes. Since this is a business born during the pandemic, its social networks and website took on enormous relevance to get ahead and make its sales.",

@@ -3,7 +3,7 @@ import ProjectHero from '../../components/project-page/project-hero'
 
 const projectInfo = {
     title: 'Pronto Detalle App',
-    cover: '/pronto-detalle-cover.png',
+    cover: '/projects/pronto-detalle/pronto-detalle-cover.png',
     year: '2024',
     tags: ['UX Design', 'UI Design', 'UX Research', 'UX Writting'],
     brief: "Pronto is a company dedicated to supplying products to stores belonging to the traditional channel. Pronto's operations are nationwide in Mexico, and like any large operation, it requires digital tools to manage the business and business processes",

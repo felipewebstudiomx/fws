@@ -3,7 +3,7 @@ import ProjectHero from '../../components/project-page/project-hero'
 
 const projectInfo = {
     title: 'International House Monterrey',
-    cover: '/ih-cover.png',
+    cover: '/projects/international-house/ih-cover.png',
     year: '2024',
     tags: ['UX/UI Design', 'Fullstack development'],
     brief: "International House Monterrey is an affiliate member of the International House World Organisation. They are the only Teacher Training and international certification centre in the state of Nuevo Leon, Mexico. This makes them a must-see for educational institutions, English teachers, students, government institutions and all those people for whom the English language is part of their lives.",

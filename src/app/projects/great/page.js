@@ -3,7 +3,7 @@ import ProjectHero from '../../components/project-page/project-hero'
 
 const projectInfo = {
     title: 'Great',
-    cover: '/great-cover.png',
+    cover: '/projects/great/great-cover.png',
     year: '2023',
     tags: ['UX Design', 'UI Design'],
     brief: "Great is a powerful HR management software used and powered by a top tech company to manage the recruitment and evaluation of prospects to join the team. This tool helps the department to find the best talent.",

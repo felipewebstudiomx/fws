@@ -3,7 +3,7 @@ import ProjectHero from '../../components/project-page/project-hero'
 
 const projectInfo = {
     title: 'Bienvivir Web App',
-    cover: '/bienvivir-cover.png',
+    cover: '/projects/bienvivir-app/bienvivir-cover.png',
     year: '2024',
     tags: ['UX Design', 'UI Design'],
     brief: "Bienvivir is a company that seeks to support people to live a full life through accompaniment, consulting, or preceptorship, with a Christian focus.",

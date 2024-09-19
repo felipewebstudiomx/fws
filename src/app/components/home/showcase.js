@@ -5,7 +5,7 @@ const projectList = [
         title: 'Pronto Detalle App',
         year: '2024',
         description: 'Internal tool with the purpose of helping salesmen complete their daily tasks',
-        image: '/pronto-detalle-cover.png',
+        image: '/projects/pronto-detalle/pronto-detalle-cover.png',
         variant: '1',
         background: 'bg-orange-600',
         link: '/projects/pronto-detalle-app'
@@ -14,7 +14,7 @@ const projectList = [
         title: 'Bienvivir App',
         year: '2024',
         description: 'Internal tool with the purpose of helping salesmen complete their daily tasks',
-        image: '/bienvivir-cover.png',
+        image: '/projects/bienvivir-app/bienvivir-cover.png',
         variant: '2',
         background: 'bg-cyan-600',
         link: '/projects/bienvivir-web-app'
@@ -23,7 +23,7 @@ const projectList = [
         title: 'International House Monterrey',
         year: '2024',
         description: 'Internal tool with the purpose of helping salesmen complete their daily tasks',
-        image: '/ih-cover.png',
+        image: '/projects/international-house/ih-cover.png',
         variant: '1',
         background: 'bg-blue-900',
         link: '/projects/international-house-monterrey'
@@ -32,7 +32,7 @@ const projectList = [
         title: 'Blue Surf',
         year: '2023',
         description: 'Powerful project management software to handle the day to day operation of a top tech company',
-        image: '/bluesurf-cover.png',
+        image: '/projects/bluesurf/bluesurf-cover.png',
         variant: '2',
         background: 'bg-sky-600',
         link: '/projects/blue-surf'
@@ -41,7 +41,7 @@ const projectList = [
         title: 'Great',
         year: '2023',
         description: 'Powerful HR software to handle the day to day operation of a top tech company',
-        image: '/great-cover.png',
+        image: '/projects/great/great-cover.png',
         variant: '1',
         background: 'bg-fuchsia-700',
         link: '/projects/great'
@@ -50,7 +50,7 @@ const projectList = [
         title: 'Pronto Cleaning App',
         year: '2022',
         description: 'Powerful project management software to handle the day to day operation of a top tech company',
-        image: '/pronto-cleaning-cover.png',
+        image: '/projects/pronto-cleaning/pronto-cleaning-cover.png',
         variant: '2',
         background: 'bg-teal-600',
         link: '/projects/pronto-cleaning-app'
@@ -59,7 +59,7 @@ const projectList = [
         title: 'Sharebox Ecommerce',
         year: '2022',
         description: 'Powerful HR software to handle the day to day operation of a top tech company',
-        image: '/sharebox-cover.png',
+        image: '/projects/sharebox/sharebox-cover.png',
         variant: '1',
         background: 'bg-violet-400',
         link: '/projects/sharebox-ecommerce'
