@@ -36,6 +36,7 @@ export default function ProntoDetalle(){
                         fill={true}
                         objectFit='cover'
                         objectPosition='0px 0px'
+                        alt='landing page'
                     />
                 </div>
             </div>
@@ -48,6 +49,7 @@ export default function ProntoDetalle(){
                             fill={true}
                             objectFit='cover'
                             objectPosition='0px 0px'
+                            alt='landing page'
                         />
                     </div>
                 </div>
@@ -71,6 +73,7 @@ export default function ProntoDetalle(){
                         src={'/projects/pronto-detalle/user-research.png'}
                         fill={true}
                         objectFit='cover'
+                        alt='research'
                     />
                 </div>
             </div>
@@ -83,6 +86,7 @@ export default function ProntoDetalle(){
                             fill={true}
                             objectFit='cover'
                             objectPosition='0px 0px'
+                            alt='research'
                         />
                     </div>
                 </div>
@@ -105,6 +109,7 @@ export default function ProntoDetalle(){
                         src={'/projects/pronto-detalle/pronto-detalle.png'}
                         fill={true}
                         objectFit='cover'
+                        alt='pronto detalle'
                     />
                 </div>
             </div>
@@ -117,6 +122,7 @@ export default function ProntoDetalle(){
                             fill={true}
                             objectFit='cover'
                             objectPosition='0px 0px'
+                            alt='pronto detalle'
                         />
                     </div>
                 </div>

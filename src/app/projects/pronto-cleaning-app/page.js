@@ -41,9 +41,9 @@ export default function ProntoCleaningApp(){
                         src={'/projects/pronto-cleaning/pronto-snapshots.png'}
                         alt="Pronto snapshots"
                         layout="intrinsic"
-                        width={1555} // Ancho de la imagen original
-                        height={812} // Altura de la imagen original (mantendrá la proporción)
-                        style={{ width: '100%', height: 'auto' }} // Ancho 100%, altura automática
+                        width={1555}
+                        height={812} 
+                        style={{ width: '100%', height: 'auto' }}
                     />
                 </div>
             </div>
@@ -55,9 +55,9 @@ export default function ProntoCleaningApp(){
                         src={'/projects/pronto-cleaning/pronto-sitemap.png'}
                         alt="Pronto sitemap"
                         layout="intrinsic"
-                        width={1270} // Ancho de la imagen original
-                        height={730} // Altura de la imagen original (mantendrá la proporción)
-                        style={{ width: '100%', height: 'auto' }} // Ancho 100%, altura automática
+                        width={1270}
+                        height={730} 
+                        style={{ width: '100%', height: 'auto' }}
                     />
                 </div>
             </div>
@@ -77,9 +77,9 @@ export default function ProntoCleaningApp(){
                             src={'/projects/pronto-cleaning/pronto-wireframes.png'}
                             alt="Pronto sitemap"
                             layout="intrinsic"
-                            width={1322} // Ancho de la imagen original
-                            height={1808} // Altura de la imagen original (mantendrá la proporción)
-                            style={{ width: '100%', height: 'auto' }} // Ancho 100%, altura automática
+                            width={1322}
+                            height={1808} 
+                            style={{ width: '100%', height: 'auto' }}
                         />
                     </div>
                 </div>
@@ -133,9 +133,9 @@ export default function ProntoCleaningApp(){
                         src={'/projects/pronto-cleaning/pronto-ux.png'}
                         alt="Pronto sitemap"
                         layout="intrinsic"
-                        width={1035} // Ancho de la imagen original
-                        height={857} // Altura de la imagen original (mantendrá la proporción)
-                        style={{ width: '100%', height: 'auto' }} // Ancho 100%, altura automática
+                        width={1035}
+                        height={857}
+                        style={{ width: '100%', height: 'auto' }}
                     />
                 </div>
                 <div className='w-full bg-teal-100 px-4 py-8 flex justify-center'>
@@ -144,9 +144,9 @@ export default function ProntoCleaningApp(){
                             src={'/projects/pronto-cleaning/pronto-showcase.png'}
                             alt="Pronto sitemap"
                             layout="intrinsic"
-                            width={1035} // Ancho de la imagen original
-                            height={857} // Altura de la imagen original (mantendrá la proporción)
-                            style={{ width: '100%', height: 'auto' }} // Ancho 100%, altura automática
+                            width={1035}
+                            height={857}
+                            style={{ width: '100%', height: 'auto' }}
                         />
                     </div>
                 </div>

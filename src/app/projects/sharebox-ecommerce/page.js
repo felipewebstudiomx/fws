@@ -36,6 +36,7 @@ export default function ShareboxEcommerce(){
                         fill={true}
                         objectFit='cover'
                         objectPosition='0px 0px'
+                        alt='landing page'
                     />
                 </div>
             </div>
@@ -48,6 +49,7 @@ export default function ShareboxEcommerce(){
                             fill={true}
                             objectFit='cover'
                             objectPosition='0px 0px'
+                            alt='sharebox home page'
                         />
                     </div>
                 </div>
@@ -69,6 +71,7 @@ export default function ShareboxEcommerce(){
                         src={'/projects/sharebox/sharebox-pages.png'}
                         fill={true}
                         objectFit='cover'
+                        alt='sharebox snapshots'
                     />
                 </div>
             </div>
@@ -80,6 +83,7 @@ export default function ShareboxEcommerce(){
                             src={'/projects/sharebox/sharebox-pages.png'}
                             fill={true}
                             objectFit='cover'
+                            alt='sharebox snapshots'
                         />
                     </div>
                 </div>
@@ -96,19 +100,13 @@ export default function ShareboxEcommerce(){
                 </div>
             </div>
 
-           {/*  <div className='w-full h-96 bg-cyan-100 relative'>
-                <Image
-                    src={'/projects/sharebox/sharebox-responsive.png'}
-                    fill={true}
-                    objectFit='cover'
-                />
-            </div> */}
             <div className='w-full h-96 bg-cyan-100 flex justify-center lg:hidden'>
                 <div className='w-full relative'>
                     <Image
                         src={'/projects/sharebox/sharebox-responsive.png'}
                         fill={true}
                         objectFit='cover'
+                        alt='sharebox'
                     />
                 </div>
             </div>
@@ -120,6 +118,7 @@ export default function ShareboxEcommerce(){
                             src={'/projects/sharebox/sharebox-responsive.png'}
                             fill={true}
                             objectFit='cover'
+                            alt='sharebox'
                         />
                     </div>
                 </div>
@@ -133,6 +132,7 @@ export default function ShareboxEcommerce(){
                             src={'/projects/sharebox/nextjs-logo.png'}
                             fill={true}
                             objectFit='contain'
+                            alt='nextjs'
                         />
                     </div>
                     <div className='tech-description w-full flex flex-col gap-3'>
@@ -149,6 +149,7 @@ export default function ShareboxEcommerce(){
                             src={'/projects/sharebox/shopify-logo.png'}
                             fill={true}
                             objectFit='contain'
+                            alt='shopify'
                         />
                     </div>
                     <div className='tech-description w-full flex flex-col gap-3'>
@@ -166,6 +167,7 @@ export default function ShareboxEcommerce(){
                     fill={true}
                     objectFit='contain'
                     objectPosition='end'
+                    alt='sharebox'
                 />
             </div>
         </div>
