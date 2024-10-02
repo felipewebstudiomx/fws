@@ -6,7 +6,7 @@ const projectInfo = {
     cover: '/projects/pronto-detalle/pronto-detalle-cover.png',
     year: '2024',
     tags: ['UX Design', 'UI Design', 'UX Research', 'UX Writting'],
-    brief: "Pronto is a company dedicated to supplying products to stores belonging to the traditional channel. Pronto's operations are nationwide in Mexico, and like any large operation, it requires digital tools to manage the business and business processes",
+    brief: "Pronto is a company dedicated to supplying products to stores belonging to the traditional channel. Pronto's operations are nationwide in Mexico, and like any large operation, it requires digital tools to manage the business and business processes. One of the most important one is the Sales and Delivery App, used by the operational team to register all new orders, manage their clients and their routes to visit the stores.",
     accentColor: {
         text: 'text-orange-500',
         border: 'border-orange-500'

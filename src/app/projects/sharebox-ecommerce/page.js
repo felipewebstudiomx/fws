@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import ProjectNavbar from '../../components/project-page/project-navbar'
 import ProjectHero from '../../components/project-page/project-hero'
 
@@ -25,6 +26,94 @@ export default function ShareboxEcommerce(){
                     tags={projectInfo.tags}
                     brief={projectInfo.brief}
                     accentColor={projectInfo.accentColor}
+                />
+            </div>
+
+            <div className='w-full h-96 bg-cyan-100 flex justify-center px-8 pt-8'>
+                <div className='w-full relative'>
+                    <Image
+                        src={'/projects/sharebox/sharebox-landing.png'}
+                        fill={true}
+                        objectFit='cover'
+                        objectPosition='0px 0px'
+                    />
+                </div>
+            </div>
+
+            <div className='w-full px-8 py-20 flex flex-col gap-8'>
+                <div className='text-xl font-bold'>The problem</div>
+                <div className='text-lg'>
+                    Being a business with an unconventional sales system (because they offer different customization options), using Shopify gave them more problems than solutions, 
+                    since to meet their needs they had to use different apps that represented an important spending. And yet the experience it offered to users was not the best
+                </div>
+            </div>
+
+            <div className='w-full h-96 bg-cyan-100 relative'>
+                <Image
+                    src={'/projects/sharebox/sharebox-pages.png'}
+                    fill={true}
+                    objectFit='cover'
+                />
+            </div>
+
+            <div className='w-full px-8 py-20 flex flex-col gap-8'>
+                <div className='text-xl font-bold'>Breaking limitations</div>
+                <div className='text-lg'>
+                    To get over the dependency of the page on those apps, what I did was create a frontend using a modern Technology Stack and then connect it to the existing online 
+                    store, through the Shopify API. In this way, Shopify became solely used to store product information and process payments, and the design of the page and the user 
+                    experience remained completely in our hands.
+                </div>
+            </div>
+
+            <div className='w-full h-96 bg-cyan-100 relative'>
+                <Image
+                    src={'/projects/sharebox/sharebox-responsive.png'}
+                    fill={true}
+                    objectFit='cover'
+                />
+            </div>
+
+            <div className='w-full px-8 py-20 flex flex-col gap-20'>
+                <div className='text-xl font-bold text-center'>Technology</div>
+                <div className='text-lg tech-space flex flex-col gap-8 items-center'>
+                    <div className='icon w-40 h-40 relative'>
+                        <Image
+                            src={'/projects/sharebox/nextjs-logo.png'}
+                            fill={true}
+                            objectFit='contain'
+                        />
+                    </div>
+                    <div className='tech-description w-full flex flex-col gap-3'>
+                        <div className='text-xl font-bold text-center'>NEXT.JS</div>
+                        <div className='text-center'>
+                            Next.js is a modern React framework for developing single page Javascript applications.
+                        </div>
+                    </div>
+                </div>
+
+                <div className='text-lg tech-space flex flex-col gap-8 items-center'>
+                    <div className='icon w-40 h-40 relative'>
+                        <Image
+                            src={'/projects/sharebox/shopify-logo.png'}
+                            fill={true}
+                            objectFit='contain'
+                        />
+                    </div>
+                    <div className='tech-description w-full flex flex-col gap-3'>
+                        <div className='text-xl font-bold text-center'>Shopify Buy SDK</div>
+                        <div className='text-center'>
+                            Is a lightweight library based on Shopify's Storefront API that allows you to build ecommerce into any website.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='w-full bg-sky-300 h-40 relative'>
+                <Image
+                    src={'/projects/sharebox/footer-image.png'}
+                    fill={true}
+                    objectFit='contain'
+                    objectPosition='end'
                 />
             </div>
         </div>
