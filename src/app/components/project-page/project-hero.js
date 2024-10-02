@@ -16,7 +16,7 @@ export default function ProjectHero({title, cover, year, tags, brief, accentColo
                             </div>
                         </div>
                     </div>
-                    <div className="md:w-2/3 h-64 md:h-full bg-slate-700 rounded-2xl relative rounded-xl overflow-hidden">
+                    <div className="md:w-2/3 h-64 md:h-full bg-slate-700 rounded-2xl relative rounded-lg overflow-hidden">
                         <Image
                             src={cover}
                             fill={true}
