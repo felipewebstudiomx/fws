@@ -138,16 +138,6 @@ export default function ProntoCleaningApp(){
                         style={{ width: '100%', height: 'auto' }} // Ancho 100%, altura automática
                     />
                 </div>
-{/*                 <div className='w-full relative px-2 py-8 bg-teal-100'>
-                    <Image
-                        src={'/projects/pronto-cleaning/pronto-showcase.png'}
-                        alt="Pronto sitemap"
-                        layout="intrinsic"
-                        width={1035} // Ancho de la imagen original
-                        height={857} // Altura de la imagen original (mantendrá la proporción)
-                        style={{ width: '100%', height: 'auto' }} // Ancho 100%, altura automática
-                    />
-                </div> */}
                 <div className='w-full bg-teal-100 px-4 py-8 flex justify-center'>
                     <div className='w-full max-w-7xl relative'>
                         <Image
