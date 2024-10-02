@@ -29,7 +29,7 @@ export default function ShareboxEcommerce(){
                 />
             </div>
 
-            <div className='w-full h-96 bg-cyan-100 flex justify-center px-8 pt-8'>
+            <div className='w-full h-96 bg-cyan-100 flex justify-center px-8 pt-8 md:h-[500px] md:px-12 lg:hidden'>
                 <div className='w-full relative'>
                     <Image
                         src={'/projects/sharebox/sharebox-landing.png'}
@@ -40,37 +40,89 @@ export default function ShareboxEcommerce(){
                 </div>
             </div>
 
-            <div className='w-full px-8 py-20 flex flex-col gap-8'>
-                <div className='text-xl font-bold'>The problem</div>
-                <div className='text-lg'>
-                    Being a business with an unconventional sales system (because they offer different customization options), using Shopify gave them more problems than solutions, 
-                    since to meet their needs they had to use different apps that represented an important spending. And yet the experience it offered to users was not the best
+            <div className='w-full justify-center hidden lg:flex'>
+                <div className='w-full max-w-7xl flex justify-center bg-cyan-100 pt-5 h-[500px] px-12 rounded-lg'>
+                    <div className='w-full relative md:w-[500px]'>
+                        <Image
+                            src={'/projects/sharebox/sharebox-landing.png'}
+                            fill={true}
+                            objectFit='cover'
+                            objectPosition='0px 0px'
+                        />
+                    </div>
                 </div>
             </div>
 
-            <div className='w-full h-96 bg-cyan-100 relative'>
-                <Image
-                    src={'/projects/sharebox/sharebox-pages.png'}
-                    fill={true}
-                    objectFit='cover'
-                />
-            </div>
-
-            <div className='w-full px-8 py-20 flex flex-col gap-8'>
-                <div className='text-xl font-bold'>Breaking limitations</div>
-                <div className='text-lg'>
-                    To get over the dependency of the page on those apps, what I did was create a frontend using a modern Technology Stack and then connect it to the existing online 
-                    store, through the Shopify API. In this way, Shopify became solely used to store product information and process payments, and the design of the page and the user 
-                    experience remained completely in our hands.
+            <div className='w-full px-8 py-20 flex justify-center gap-8 md:px-14'>
+                <div className='w-full max-w-7xl flex flex-col gap-8 md:flex-row'>
+                    <div className='text-xl font-bold md:w-1/3'>The problem</div>
+                    <div className='text-lg md:w-2/3'>
+                        Being a business with an unconventional sales system (because they offer different customization options), using Shopify gave them more problems than solutions, 
+                        since to meet their needs they had to use different apps that represented an important spending. And yet the experience it offered to users was not the best
+                    </div>
                 </div>
             </div>
 
-            <div className='w-full h-96 bg-cyan-100 relative'>
+            <div className='w-full h-96 bg-cyan-100 flex justify-center lg:hidden'>
+                <div className='w-full relative'>
+                    <Image
+                        src={'/projects/sharebox/sharebox-pages.png'}
+                        fill={true}
+                        objectFit='cover'
+                    />
+                </div>
+            </div>
+
+            <div className='w-full justify-center hidden lg:flex'>
+                <div className='w-full max-w-7xl flex justify-center bg-cyan-100 h-[500px] rounded-lg overflow-hidden'>
+                    <div className='w-full relative'>
+                        <Image
+                            src={'/projects/sharebox/sharebox-pages.png'}
+                            fill={true}
+                            objectFit='cover'
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <div className='w-full px-8 py-20 flex justify-center gap-8 md:px-14'>
+                <div className='w-full max-w-7xl flex flex-col gap-8 md:flex-row'>
+                    <div className='text-xl font-bold md:w-1/3'>Breaking limitations</div>
+                    <div className='text-lg md:w-2/3'>
+                        To get over the dependency of the page on those apps, what I did was create a frontend using a modern Technology Stack and then connect it to the existing online 
+                        store, through the Shopify API. In this way, Shopify became solely used to store product information and process payments, and the design of the page and the user 
+                        experience remained completely in our hands.
+                    </div>
+                </div>
+            </div>
+
+           {/*  <div className='w-full h-96 bg-cyan-100 relative'>
                 <Image
                     src={'/projects/sharebox/sharebox-responsive.png'}
                     fill={true}
                     objectFit='cover'
                 />
+            </div> */}
+            <div className='w-full h-96 bg-cyan-100 flex justify-center lg:hidden'>
+                <div className='w-full relative'>
+                    <Image
+                        src={'/projects/sharebox/sharebox-responsive.png'}
+                        fill={true}
+                        objectFit='cover'
+                    />
+                </div>
+            </div>
+
+            <div className='w-full justify-center hidden lg:flex'>
+                <div className='w-full max-w-7xl flex justify-center bg-cyan-100 h-[500px] rounded-lg overflow-hidden'>
+                    <div className='w-full relative'>
+                        <Image
+                            src={'/projects/sharebox/sharebox-responsive.png'}
+                            fill={true}
+                            objectFit='cover'
+                        />
+                    </div>
+                </div>
             </div>
 
             <div className='w-full px-8 py-20 flex flex-col gap-20'>
@@ -108,7 +160,7 @@ export default function ShareboxEcommerce(){
                 </div>
             </div>
 
-            <div className='w-full bg-sky-300 h-40 relative'>
+            <div className='w-full bg-sky-300 h-40 relative md:h-64'>
                 <Image
                     src={'/projects/sharebox/footer-image.png'}
                     fill={true}

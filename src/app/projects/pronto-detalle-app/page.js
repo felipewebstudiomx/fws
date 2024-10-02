@@ -122,17 +122,6 @@ export default function ProntoDetalle(){
                 </div>
             </div>
 
-            {/* <div className='w-full px-8 py-20 flex flex-col gap-8'>
-                <div className='text-xl font-bold'>Designing and prototyping</div>
-                <div className='text-lg'>
-                    The application design and prototyping process is a continuous process that adapts to the needs of the business 
-                    (operational and commercial).
-                </div>
-                <div className='text-lg'>
-                    Each functionality is subsequently tested and evaluated to ensure that it is usable. Otherwise, the necessary 
-                    modifications are made, always keeping in mind the user experience and the efficiency of the operation.
-                </div>
-            </div> */}
             <div className='w-full px-8 py-20 flex justify-center gap-8 md:px-14'>
                 <div className='w-full max-w-7xl flex flex-col gap-8 md:flex-row'>
                     <div className='text-xl font-bold md:w-1/3'>Designing and prototyping</div>
