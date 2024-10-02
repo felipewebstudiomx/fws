@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { Manrope } from '@next/font/google'
+import { Manrope, Poppins } from '@next/font/google'
 
 const manrope = Manrope({
   subsets: ['latin'],
