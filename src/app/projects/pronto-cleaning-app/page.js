@@ -92,12 +92,10 @@ export default function ProntoCleaningApp(){
                         <div className='text-xl font-bold md:w-1/3'>Color and fonts</div>
                         <div className='md:w-2/3 flex flex-col gap-5'>
                             <div className='text-lg'>
-                                The client imagined the platform with a clean, almost minimalist style that is consistent with the mission and 
-                                philosophy of the brand; and that's why a monochrome color palette was chosen in which only the main color of the 
-                                brand was used to highlight the necessary elements.
+                                {"The client imagined the platform with a clean, almost minimalist style that is consistent with the mission and philosophy of the brand; and that's why a monochrome color palette was chosen in which only the main color of the brand was used to highlight the necessary elements."}
                             </div>
                             <div className='text-lg'>
-                                The color palette was complemented with a geometrical font to give the app a modern look and feel. The cosen font was 'Poppins'
+                                {"The color palette was complemented with a geometrical font to give the app a modern look and feel. The cosen font was 'Poppins'"}
                             </div>
                         </div>
                     </div>

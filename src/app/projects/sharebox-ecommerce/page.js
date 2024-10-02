@@ -155,7 +155,7 @@ export default function ShareboxEcommerce(){
                     <div className='tech-description w-full flex flex-col gap-3'>
                         <div className='text-xl font-bold text-center'>Shopify Buy SDK</div>
                         <div className='text-center'>
-                            Is a lightweight library based on Shopify's Storefront API that allows you to build ecommerce into any website.
+                            {"Is a lightweight library based on Shopify's Storefront API that allows you to build ecommerce into any website."}
                         </div>
                     </div>
                 </div>
