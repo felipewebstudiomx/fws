@@ -16,21 +16,25 @@ const projectInfo = {
 
 const projectScope = [
     {
+        id: 1,
         title: '01. Discovering',
         description: 'UX Research, benchmark, in-depth interviews',
         src: '/projects/bienvivir-app/icons/search.png'
     },
     {
+        id: 2,
         title: '02. Definition',
         description: 'Project scope, information architecture',
         src: '/projects/bienvivir-app/icons/definition.png'
     },
     {
+        id: 3,
         title: '03. Ideate',
         description: 'User flow, sketching, wireframes',
         src: '/projects/bienvivir-app/icons/idea.png'
     },
     {
+        id: 4,
         title: '04. Prototype',
         description: 'Color and typography, UI Kit, UI Design',
         src: '/projects/bienvivir-app/icons/prototype.png'
@@ -86,7 +90,7 @@ export default function BienVivirApp(){
                     <div className='w-full grid grid-cols-1 gap-8 md:grid-cols-2'>
                         {
                             projectScope.map((project)=>(
-                                <div className='rounded-xl bg-gradient-to-b from-sky-200/50 to-sky-200/20 p-0.5'>
+                                <div key={project.id} className='rounded-xl bg-gradient-to-b from-sky-200/50 to-sky-200/20 p-0.5'>
                                     <div className='w-full rounded-xl h-full bg-[#0A0A0A] p-6 flex flex-col gap-5 lg:px-8'>
                                         <div className='w-16 h-16 bg-sky-300/25 rounded-full p-4'>
                                             <div className='relative w-full h-full'>
