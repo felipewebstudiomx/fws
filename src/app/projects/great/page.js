@@ -1,5 +1,6 @@
 import ProjectNavbar from '../../components/project-page/project-navbar'
 import ProjectHero from '../../components/project-page/project-hero'
+import BehanceInProgress from '../../components/project-page/behance-in-progress'
 
 const projectInfo = {
     title: 'Great',
@@ -27,6 +28,7 @@ export default function Great(){
                     accentColor={projectInfo.accentColor}
                 />
             </div>
+            <BehanceInProgress/>
         </div>
     )
 }

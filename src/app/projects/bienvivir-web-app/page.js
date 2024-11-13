@@ -1,5 +1,6 @@
 import ProjectNavbar from '../../components/project-page/project-navbar'
 import ProjectHero from '../../components/project-page/project-hero'
+import BehanceInProgress from '../../components/project-page/behance-in-progress'
 import Image from 'next/image'
 
 const projectInfo = {
@@ -152,6 +153,8 @@ export default function BienVivirApp(){
 
                 </div>
             </div>
+
+            <BehanceInProgress/>
         </div>
     )
 }
