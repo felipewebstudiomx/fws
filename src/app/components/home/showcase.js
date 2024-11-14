@@ -13,13 +13,13 @@ const projectList = [
     },
     {
         title: 'Bienvivir App',
-        external: false,
+        external: true,
         year: '2024',
         description: 'Internal tool with the purpose of helping salesmen complete their daily tasks',
         image: '/projects/bienvivir-app/bienvivir-cover.png',
         variant: '2',
         background: 'bg-cyan-600',
-        link: '/projects/bienvivir-web-app'
+        link: 'https://www.behance.net/gallery/212487945/BienVivir-App'
     },
     {
         title: 'International House Monterrey',
